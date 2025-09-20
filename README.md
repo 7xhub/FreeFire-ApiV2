@@ -1,4 +1,4 @@
-# Free Fire Apis For 7x'
+# 'Free Fire Apis By 7xHub'
 
 Documentação dos endpoints HTTP públicos, com exemplos reais de requisição e resposta em **JSON**.
 
