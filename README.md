@@ -9,7 +9,7 @@ https://7xhub-api.squareweb.app
 
 ---
 
-## 🔥 Endpoints Gráficos & Status
+## Endpoints Gráficos & Status
 
 <div align="center">
   <table>
