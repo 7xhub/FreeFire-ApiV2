@@ -61,7 +61,7 @@ https://7xhub-api.squareweb.app
     <tr>
       <td>#9</td>
       <td><b>/api/v2/check-ban</b></td>
-      <td>🟡 Manutenção</td>
+      <td>🟢 Online</td>
     </tr>
     <tr>
       <td>#10</td>
