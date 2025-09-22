@@ -88,6 +88,11 @@ https://7xhub-api.squareweb.app
       <td><b>/api/v2/like</b></td>
       <td>🟢 Online</td>
     </tr>
+      <td>#15</td>
+      <td><b>/api/v2/info-basic</b></td>
+      <td>⚫ Novidades</td>
+    </tr>
+    <tr>
   </table>
 </div>
 
