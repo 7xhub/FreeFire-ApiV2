@@ -90,7 +90,7 @@ https://7xhub-api.squareweb.app
     </tr>
       <td>#15</td>
       <td><b>/api/v2/info-basic</b></td>
-      <td>⚫ Novidades</td>
+      <td>⚫ Novidade</td>
     </tr>
     <tr>
   </table>
