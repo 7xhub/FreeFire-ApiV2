@@ -4,7 +4,6 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/0xme/0xme/output/github-contribution-grid-snake.svg">
 </picture>
 
-**Base URL**
 ```
 https://7xhub-api.squareweb.app
 ```
