@@ -653,7 +653,7 @@ GET https://7xhub-api.squareweb.app/api/v2/like?uid=1033857091&auth=SEU_TOKEN_AP
 ```
 **Erros**:
 - 404 `{"status":"not_found","mensagem":"Não foi possível localizar o jogador com o UID fornecido."}`
-- 500 `500 { erro: "Erro interno do servidor" }`
+- 500 `{ erro: "Erro interno do servidor" }`
 --
 ## 15) **Likes Diários**
 
@@ -665,25 +665,22 @@ GET https://7xhub-api.squareweb.app/api/v2/like?uid=1033857091&auth=SEU_TOKEN_AP
 **Resposta (200)**
 ```json
 {
-  "status": "success",
-  "mensagem": "Likes processados com sucesso.",
-  "data": {
-    "player": {
-      "nickname": "@Totosoㅤ7x'",
-      "region": "BR",
-      "level": 72,
-      "exp": "3,373,088",
-      "uid": "1033857091"
-    },
-    "likes": {
-      "antes": "8,482",
-      "depois": "8,582",
-      "adicionados": "100",
-      "limite_diario": "❌"
-    }
+  "dev": "#Regiis7x",
+  "sucess": true,
+  "id": "1033857091",
+  "infos": {
+    "accountId": "1033857091",
+    "exp": 3376920,
+    "guild": "Equipeㅤ7x'ㅤ☕",
+    "lastLoginAt": 1758626203,
+    "level": 72,
+    "liked": 8689,
+    "nickname": "@Totosoㅤ7x'",
+    "region": "BR",
+    "releaseVersion": "OB50"
   }
 }
 ```
 **Erros**:
-- 404 `{"status":"not_found","mensagem":"Não foi possível localizar o jogador com o UID fornecido."}`
-- 500 `500 { erro: "Erro interno do servidor" }
+- 404 `{"dev":"#Regiis7x","message":"player_not_found","success":false}`
+- 500 `{"dev":"#Regiis7x","mensagem":"erro interno.","sucess":false}`
