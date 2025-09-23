@@ -91,7 +91,7 @@ https://7xhub-api.squareweb.app
     </tr>
       <td>#15</td>
       <td><b>/api/v2/info-basic</b></td>
-      <td>⚫ Novidade</td>
+      <td>🟢 Online</td>
     </tr>
     <tr>
   </table>
@@ -655,11 +655,11 @@ GET https://7xhub-api.squareweb.app/api/v2/like?uid=1033857091&auth=SEU_TOKEN_AP
 - 404 `{"status":"not_found","mensagem":"Não foi possível localizar o jogador com o UID fornecido."}`
 - 500 `{ erro: "Erro interno do servidor" }`
 --
-## 15) **Likes Diários**
+## 15) **Informações Básica**
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/v2/like?uid=1033857091&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/info-basic?id=1033857091&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
