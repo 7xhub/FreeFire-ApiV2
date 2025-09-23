@@ -643,9 +643,9 @@ GET https://7xhub-api.squareweb.app/api/v2/like?uid=1033857091&auth=SEU_TOKEN_AP
     },
     "likes": {
       "antes": "8,482",
-      "depois": "8,482",
-      "adicionados": "0",
-      "limite_diario": "✅"
+      "depois": "8,582",
+      "adicionados": "100",
+      "limite_diario": "❌"
     }
   }
 }
