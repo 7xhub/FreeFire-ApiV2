@@ -17,6 +17,7 @@ https://7xhub-api.squareweb.app
       <th style="color:#00BFFF;">Numeração</th>
       <th style="color:#FFD700;">GET</th>
       <th style="color:#00BFFF;">Status</th>
+      <th style="color:#FFD700;">breve</th>
     </tr>
     <tr>
       <td>#1</td>
