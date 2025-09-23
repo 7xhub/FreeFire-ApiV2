@@ -4,10 +4,6 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/0xme/0xme/output/github-contribution-grid-snake.svg">
 </picture>
 
-# Free Fire Apis By 7xHub
-
-Documentação dos endpoints HTTP públicos, com exemplos reais de requisição e resposta em **JSON**.
-
 **Base URL**
 ```
 https://7xhub-api.squareweb.app
