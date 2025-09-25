@@ -102,48 +102,48 @@ https://7xhub-api.squareweb.app
 
 ## 1) Buscar jogador por **Nickname**
 
-> **Exemplo**
-> ```
-> GET https://7xhub-api.squareweb.app/api/v2/search-player?nickname=regis7x&auth=SEU_TOKEN_API
-> ```
->
-> **Resposta (200)**
-> ```json
-> {
->  "dev": "#Regiis7x",
->  "quantidadeContas": 1,
->  "contas": [
->    {
->      "idConta": "4245685047",
->      "tipoConta": 1,
->      "idEmblema": 1001000088,
->      "idBanner": null,
->      "idClan": null,
->      "nomeClan": null,
->      "nivel": 8,
->      "experiencia": 4110,
->      "curtidas": 19,
->      "apelido": "regiskkkj",
->      "regiao": "BR",
->      "rank": 301,
->      "pontosRank": 1000,
->      "csRank": 301,
->      "pontosCsRank": null,
->      "ultimaVezOnline": "1681263139",
->      "temporadaId": 47,
->       "pinId": null
->    }
->  ]
-> }
-> ```
->
-> **Erros**
-> - 404 `{
->  "dev": "#Regiis7x",
->  "mensagem": "404 - Jogador não encontrado",
->  "sucesso": false
->  }`
-> - 500 `{ erro: "Erro interno do servidor" }`
+**Exemplo**
+```
+GET https://7xhub-api.squareweb.app/api/v2/search-player?nickname=regis7x&auth=SEU_TOKEN_API
+```
+
+**Resposta (200)**
+```json
+ {
+  "dev": "#Regiis7x",
+  "quantidadeContas": 1,
+  "contas": [
+    {
+      "idConta": "4245685047",
+      "tipoConta": 1,
+      "idEmblema": 1001000088,
+      "idBanner": null,
+      "idClan": null,
+      "nomeClan": null,
+      "nivel": 8,
+      "experiencia": 4110,
+      "curtidas": 19,
+      "apelido": "regiskkkj",
+      "regiao": "BR",
+      "rank": 301,
+      "pontosRank": 1000,
+      "csRank": 301,
+      "pontosCsRank": null,
+      "ultimaVezOnline": "1681263139",
+      "temporadaId": 47,
+       "pinId": null
+    }
+  ]
+ }
+```
+
+**Erros**
+- 404 `{
+  "dev": "#Regiis7x",
+  "mensagem": "404 - Jogador não encontrado",
+  "sucesso": false
+  }`
+  - 500 `{ erro: "Erro interno do servidor" }`
 ---
 
 ## 2) Informações do jogador (por **UID**)
