@@ -143,7 +143,7 @@ GET https://7xhub-api.squareweb.app/api/v2/search-player?nickname=regis7x&auth=S
   "mensagem": "404 - Jogador não encontrado",
   "sucesso": false
   }`
-  - 500 `{ erro: "Erro interno do servidor" }`
+ - 500 `{ erro: "Erro interno do servidor" }`
 ---
 
 ## 2) Informações do jogador (por **UID**)
