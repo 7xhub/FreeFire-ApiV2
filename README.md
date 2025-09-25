@@ -106,7 +106,7 @@ https://7xhub-api.squareweb.app
 > ```
 > GET https://7xhub-api.squareweb.app/api/v2/search-player?nickname=regis7x&auth=SEU_TOKEN_API
 > ```
-
+>
 > **Resposta (200)**
 > ```json
 > {
@@ -136,7 +136,7 @@ https://7xhub-api.squareweb.app
 >  ]
 > }
 > ```
-
+>
 > **Erros**
 > - 404 `{
 >  "dev": "#Regiis7x",
